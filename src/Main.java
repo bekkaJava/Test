@@ -2,7 +2,7 @@ import java.security.SecureRandom;
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println(randomPasswordGenerator(10));
+
     }
     public static String randomPasswordGenerator(int passwordSize) {
         String passwordGenerator = "abcdefghijklmNBSpqrstuvwxyzALOMBSGQIODAOPQRSTUVWXYZ0123456789!@#$%^&*()_+-={}[]\\\\|;:'\\\"<>,.?/\"";
